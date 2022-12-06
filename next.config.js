@@ -2,6 +2,6 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['links.papareact.com', 'jsonkeeper.com']
+    domains: ['a0.muscache.com','links.papareact.com', 'jsonkeeper.com']
   }
 }

@@ -4,6 +4,9 @@ import Header from '../components/Header';
 import Banner from '../components/Banner';
 import SmallCard from '../components/SmallCard';
 import MediumCard from '../components/MediumCard';
+import LargeCard from '../components/LargeCard';
+import Footer from '../components/Footer';
+
 
 const Home: NextPage = ({exploreData, cardData}) => {
   return (
@@ -40,10 +43,17 @@ const Home: NextPage = ({exploreData, cardData}) => {
               title={title}
             />
           ))}</div>
-          
         </section>
+
+        <LargeCard
+          img='https://a0.muscache.com/im/pictures/2da67c1c-0c61-4629-8798-1d4de1ac9291.jpg?im_w=1440'
+          title='The Greatest Outdoors'
+          description='Whishlists curated by Airbnb'
+          buttonText='Get Inspired'
+        />
       </main>
-     
+
+      <Footer />     
     </div>
   )
 }
